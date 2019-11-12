@@ -1,7 +1,15 @@
 {
-  "IsEncrypted": true,
+  "IsEncrypted": false,
   "Values": {
-    "FUNCTIONS_WORKER_RUNTIME": "CfDJ8Lf+VeCUfhxIp0Ft+IqvNjPth/5W7OGkRFC8AMmE6doIX9iLRi9ps6uDLOr9RbxKfGVvfx2YcQF1nFlUrqz6hhJb9jvkdxv9HGUcl/3egn85mX/IOKVl4b0h/WQ9BMVWOg=="
-  },
-  "ConnectionStrings": {}
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~2",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "339a58bb-a63f-481e-8ec1-f1f6b49762cb",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=storageaccountautodbaa8;AccountKey=CWtu2CB+ZZCav1UW3TuEYR7KhBZD9OWHfSozhR4taqP5IYXLnfC5JJ8Ff/iK/1v5IbOEU1Le+/cgzSfLPUqSBQ==;EndpointSuffix=core.windows.net",
+    "WEBSITE_CONTENTSHARE": "autodeletedemob7cb",
+    "FUNCTIONS_WORKER_RUNTIME": "powershell",
+    "WEBSITE_SITE_NAME": "autodeletedemo",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=storageaccountautodbaa8;AccountKey=CWtu2CB+ZZCav1UW3TuEYR7KhBZD9OWHfSozhR4taqP5IYXLnfC5JJ8Ff/iK/1v5IbOEU1Le+/cgzSfLPUqSBQ==;EndpointSuffix=core.windows.net"
+  }
 }

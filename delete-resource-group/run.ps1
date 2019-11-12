@@ -19,11 +19,11 @@ $toll += Get-AzResourceGroup | Where-Object ResourceGroupName -like 'deleteme*'
 
 $toll += Get-AzResourceGroup | Where-Object ResourceGroupName -like 'demo-*'
 
-Foreach ($resourceGroup in $toll) {
+Foreach ($g in $toll) {
 
-    Write-Host "Goodbye $($resourceGroup.ResourceGroupName) 🔔..."
+    Write-Host "Goodbye $($g.ResourceGroupName) 🔔..."
 
-    Remove-AzResourceGroup -Name $resourceGroup.ResourceGroupName -Force -AsJob
+    Remove-AzResourceGroup -Name $g.ResourceGroupName -Force -AsJob
 
     Write-Host "⚰️"
 
